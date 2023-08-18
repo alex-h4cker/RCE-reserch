@@ -7,42 +7,51 @@ If these functions are used unprotected and improperly, they allow attackers to 
 
 Some well-known functions that can create RCE risk potential include:
 
-system()
-execute()
-evaluate()
-passthru()
-shell_exec()
-open()
+    system()
+    execute()
+    evaluate()
+    passthru()
+    shell_exec()
+    open()
 
 Parameters that may have an rce vulnerability
-?cmd=
-?exec=
-?command=
-?execute=
-?ping=
-?query=
-?jump=
-?code=
-?reg=
-?do=
-?func=
-?arg=
-?option=
-?load=
-?process=
-?step=
-?read=
-?function=
-?req=
-?feature=
-?exe=
-?module=
-?payload=
-?run=
-?print=
+
+    ?cmd=
+    ?exec=
+    ?command=
+    ?execute=
+    ?ping=
+    ?query=
+    ?jump=
+    ?code=
+    ?reg=
+    ?do=
+    ?func=
+    ?arg=
+    ?option=
+    ?load=
+    ?process=
+    ?step=
+    ?read=
+    ?function=
+    ?req=
+    ?feature=
+    ?exe=
+    ?module=
+    ?payload=
+    ?run=
+    ?print=
 
 vulnrability 
 
+
+characters to find rce
+
+    $()
+    ; or ;;
+    & or &&
+    | or ||
+    `payload` -> `cat /etc/passwd`
 
 xml-rpc to rce
 
