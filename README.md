@@ -51,6 +51,7 @@ characters to find rce
     ; or ;;
     & or &&
     | or ||
+    $ or $$
     `payload` -> `cat /etc/passwd`
 
 xml-rpc to rce
