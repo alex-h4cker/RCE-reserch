@@ -95,4 +95,4 @@ SQLI to RCE
 
 OOB(out of band)
 
-    Unlike in-band attacks that take place in the same main channel between the service and the user, OOB attacks take place separately and outside the main           channel. More precisely, in OOB attacks, the attacker communicates with the server through a separate channel (e.g. DNS) and transmits his commands
+    Unlike in-band attacks that take place in the same main channel between the service and the user, OOB attacks take place separately and outside the main channel. More precisely, in OOB attacks, the attacker communicates with the server through a separate channel (e.g. DNS) and transmits his commands
